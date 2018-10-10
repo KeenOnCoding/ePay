@@ -1,0 +1,500 @@
+{
+  "id": "av5dn4duySgqtWpnhdmRJ2",
+  "name": "AMB HOLDING",
+  "autonumbering_sequence_name_prefix": "UK 3814",
+  "date_created": "2018-08-07T13:00:28.345704Z",
+  "date_modified": "2018-08-21T06:43:09.520403Z",
+  "created_by": {
+    "id": "sm5n99S82aoZKd9jMX8sb2",
+    "email": "lidia.winer@idealscorp.com",
+    "first_name": "Lidia",
+    "last_name": "Winer",
+    "avatar": null
+  },
+  "template": {
+    "id": "N6zniyuD4tA2FdpxFVeCgK",
+    "name": "Business 18 EUR"
+  },
+  "expiration_date": "2019-08-02T13:03:13.297135Z",
+  //to DB metadata
+  "metadata": {
+    "prosperworks.contact_id": "56546300",
+    "prosperworks.company_id": "26318015", //
+    "prosperworks.deal_id": "9923968" //
+  },
+  "tokens": [
+    {
+      "name": "Client.FirstName", //  Customer => Name
+      "value": "Yvan"
+    },
+    {
+      "name": "Client.Email",
+      "value": "yvan.jansen@corporateadvisors.be"
+    },
+    {
+      "name": "Client.LastName", //  Customer => lastna meName
+      "value": "Jansen"
+    },
+    {
+      "name": "Document.SeqNumber",
+      "value": "UK 3814" //   ContractNumber
+    },
+    {
+      "name": "Document.CreatedDate", //  Customer =>contract=> CreateDate
+      "value": "Aug 07, 2018"
+    },
+    {
+      "name": "StorageSpace", //  PlanItem => name
+      "value": "1" //
+    },
+    {
+      "name": "Trial.Period", //  TrialPeriodDays
+      "value": "30"
+    },
+    {
+      "name": "Primary.Term",
+      "value": "3"            //  Period
+    },
+    {
+      "name": "StorageStep",
+      "value": "500" //  Step
+    }
+  ],
+  "fields": [
+    {
+      "uuid": "pBJvYVgwE4uHxkrrLdnH6Y",
+      "name": "CompanyName",
+      "title": "Client.CompanyName",
+      "assigned_to": {
+        "id": "ezkzaGTfHDVmJyUSqYGs36",
+        "first_name": "Yvan",
+        "last_name": "Jansen",
+        "email": "yvan.jansen@corporateadvisors.be",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": "AMB Holding nv"
+    },
+    {
+      "uuid": "XoTzpozuob7pAX9yaDc7Un",
+      "name": "CompanyAddress",
+      "title": "Client.CompanyAddress",
+      "assigned_to": {
+        "id": "ezkzaGTfHDVmJyUSqYGs36",
+        "first_name": "Yvan",
+        "last_name": "Jansen",
+        "email": "yvan.jansen@corporateadvisors.be",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": "Breeveldpad 11\nBE - 2970 Schilde" //  Customer => Address
+    },
+    {
+      "uuid": "VoVqMJoWzPmLr6h2PMt9qb",
+      "name": "VATNumber",
+      "title": "Client.VATNumber",
+      "assigned_to": {
+        "id": "ezkzaGTfHDVmJyUSqYGs36",
+        "first_name": "Yvan",
+        "last_name": "Jansen",
+        "email": "yvan.jansen@corporateadvisors.be",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": "BE 0446 257 804" //  Customer=> TaxNumber
+    },
+    {
+      "uuid": "qCaMZPwbXVcLzts93i8N3H",
+      "name": "Billing.FirstName",
+      "title": "Client.FirstName",
+      "assigned_to": {
+        "id": "ezkzaGTfHDVmJyUSqYGs36",
+        "first_name": "Yvan",
+        "last_name": "Jansen",
+        "email": "yvan.jansen@corporateadvisors.be",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": "Yvan"
+    },
+    {
+      "uuid": "UQbLzU2wZDhHHUoNvYKnd4",
+      "name": "Billing.LastName",
+      "title": "Client.LastName",
+      "assigned_to": {
+        "id": "ezkzaGTfHDVmJyUSqYGs36",
+        "first_name": "Yvan",
+        "last_name": "Jansen",
+        "email": "yvan.jansen@corporateadvisors.be",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": "Jansen"
+    },
+    {
+      "uuid": "jdFHWPxdA6vaYCjorafe2Q",
+      "name": "Billing.EmailAddress",
+      "title": "Client.EmailAddress",   
+      "assigned_to": {
+        "id": "ezkzaGTfHDVmJyUSqYGs36",
+        "first_name": "Yvan",
+        "last_name": "Jansen",
+        "email": "yvan.jansen@corporateadvisors.be",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": "Yvan.jansen@ambholding.be"    //  customer => Email
+    },
+    {
+      "uuid": "sbKpy4XCAiKSCvubEFCV9P",
+      "name": "Billing.TelephoneNumber",
+      "title": "Client.TelephoneNumber",
+      "assigned_to": {
+        "id": "ezkzaGTfHDVmJyUSqYGs36",
+        "first_name": "Yvan",
+        "last_name": "Jansen",
+        "email": "yvan.jansen@corporateadvisors.be",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": "0032497479499"  //  Customer => Phone
+    },
+    {
+      "uuid": "A6qLAaWvz8r3AhV9wXmSqK",
+      "name": "Initials",
+      "title": "Initials",
+      "assigned_to": {
+        "id": "ezkzaGTfHDVmJyUSqYGs36",
+        "first_name": "Yvan",
+        "last_name": "Jansen",
+        "email": "yvan.jansen@corporateadvisors.be",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": {}
+    },
+    {
+      "uuid": "XPkRR7ZWoKXBP7z9r46YUX",
+      "name": "Client.CompanyName",
+      "title": "Client.CompanyName",
+      "assigned_to": {
+        "id": "ezkzaGTfHDVmJyUSqYGs36",
+        "first_name": "Yvan",
+        "last_name": "Jansen",
+        "email": "yvan.jansen@corporateadvisors.be",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": "AMB Holding nv"   //  Customer => CompanyName
+    },
+    {
+      "uuid": "Vn8wgDw8NcsSycfUPyvxDK",
+      "name": "Client.Signature",
+      "title": "Signature",
+      "assigned_to": {
+        "id": "ezkzaGTfHDVmJyUSqYGs36",
+        "first_name": "Yvan",
+        "last_name": "Jansen",
+        "email": "yvan.jansen@corporateadvisors.be",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": {}
+    },
+    {
+      "uuid": "C2yZtpT8Ga9LhrSejBMQr7",
+      "name": "Client.FullName",
+      "title": "Client.FullName",
+      "assigned_to": {
+        "id": "ezkzaGTfHDVmJyUSqYGs36",
+        "first_name": "Yvan",
+        "last_name": "Jansen",
+        "email": "yvan.jansen@corporateadvisors.be",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": "Yvan Jansen"
+    },
+    {
+      "uuid": "AGjxmYnjE5XamBV3dXSJrK",
+      "name": "Client.Title",
+      "title": "Client.Title",
+      "assigned_to": {
+        "id": "ezkzaGTfHDVmJyUSqYGs36",
+        "first_name": "Yvan",
+        "last_name": "Jansen",
+        "email": "yvan.jansen@corporateadvisors.be",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": "CFO"
+    },
+    {
+      "uuid": "AXbcMu6otriJjJVi5Vfw72",
+      "name": "iDeals.Signature",
+      "title": "Signature",
+      "assigned_to": {
+        "id": "PH7cfddui7jV7jSDHvYDPR",
+        "first_name": "Anna",
+        "last_name": "Volfman",
+        "email": "anna.volfman@idealscorp.com",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": {}
+    },
+    {
+      "uuid": "hWQEq7sXE9kFbqKByYHxaX",
+      "name": "Date",
+      "title": "Date",
+      "assigned_to": {
+        "id": "YSS4nLLaDZTUyrDBxxXLAf",
+        "first_name": "Lidia",
+        "last_name": "Winer",
+        "email": "lidia.winer@idealscorp.com",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": "2018-07-10T00:00:00Z"
+    },
+    {
+      "uuid": "AGyMtthvpk7EiRQPWRZSLY",
+      "name": "Autocharge",
+      "title": "Autocharge",
+      "assigned_to": {
+        "id": "ezkzaGTfHDVmJyUSqYGs36",
+        "first_name": "Yvan",
+        "last_name": "Jansen",
+        "email": "yvan.jansen@corporateadvisors.be",
+        "recipient_type": "signer",
+        "has_completed": true,
+        "role": "",
+        "type": "recipient"
+      },
+      "value": "YES"
+    }
+  ],
+  //  tarification
+  "pricing": {
+    "tables": [
+      {
+        "id": "pPPLkgv5nXw36pTmTZ8oDe",
+        "name": "PricingTable2",
+        "total": "1190",
+        "is_included_in_total": true,
+        "summary": {
+          "subtotal": "1190",
+          "total": "1190",
+          "discount": "0",
+          "tax": "0"
+        },
+        "items": [
+          {
+            "id": null,
+            "sku": null,
+            "qty": 1,
+            "name": "Business Subscription",
+            "cost": null,
+            "price": "1190",
+            "description": "",
+            "custom_fields": {},
+            "custom_columns": {
+              "Storage Space (GB)": "1",
+              "Period (month)": "3"
+            },
+            "discount": null,
+            "tax_first": null,
+            "tax_second": null,
+            "subtotal": "1190",
+            "options": {},
+            "sale_price": "1190"
+          }
+        ]
+      },
+      {
+        "id": "pE7VCmxLcxAq8W2JG2iKQH",
+        "name": "PricingTable3",
+        "total": "1260",
+        "is_included_in_total": true,
+        "summary": {
+          "subtotal": "1260",
+          "total": "1260",
+          "discount": "0",
+          "tax": "0"
+        },
+        "items": [
+          {
+            "id": null,
+            "sku": null,
+            "qty": 1,
+            "name": "Extension of Business Subscription",
+            "cost": null,
+            "price": "395",
+            "description": "Up to 1 GB",
+            "custom_fields": {},
+            "custom_columns": 
+            {
+              "Period": "month"
+            },
+            "discount": null,
+            "tax_first": null,
+            "tax_second": null,
+            "subtotal": "395",
+            "options": {},
+            "sale_price": "395"
+          },
+          {
+            "id": null,
+            "sku": null,
+            "qty": 1,
+            "name": "Additional data uploads/storage",
+            "cost": null,
+            "price": "195",
+            "description": "per 500 MB",
+            "custom_fields": {},
+            "custom_columns": {
+              "Period": "month"
+            },
+            "discount": null,
+            "tax_first": null,
+            "tax_second": null,
+            "subtotal": "195",
+            "options": {},
+            "sale_price": "195"
+          },
+          {
+            "id": null,
+            "sku": null,
+            "qty": 1,
+            "name": "Encrypted Editable Flash Drive 8/16 GB",
+            "cost": null,
+            "price": "250",
+            "description": "Preparation time: up to 2 business days*",
+            "custom_fields": {},
+            "custom_columns": {
+              "Period": "-"
+            },
+            "discount": null,
+            "tax_first": null,
+            "tax_second": null,
+            "subtotal": "250",
+            "options": {},
+            "sale_price": "250"
+          },
+          {
+            "id": null,
+            "sku": null,
+            "qty": 1,
+            "name": "Encrypted Read Only Flash Drive 8/16 GB",
+            "cost": null,
+            "price": "420",
+            "description": "Preparation time: 4 business days*",
+            "custom_fields": {},
+            "custom_columns": {
+              "Period": "-"
+            },
+            "discount": null,
+            "tax_first": null,
+            "tax_second": null,
+            "subtotal": "420",
+            "options": {},
+            "sale_price": "420"
+          }
+        ]
+      }
+    ],
+    "total": "2450"
+  },
+  "tags": [
+    "MB",
+    "Business 18",
+    "EUR"
+  ],
+  "status": "document.paid",
+  "recipients": [
+    {
+      "id": "YSS4nLLaDZTUyrDBxxXLAf",
+      "first_name": "Lidia",
+      "last_name": "Winer",
+      "email": "lidia.winer@idealscorp.com",
+      "recipient_type": "signer",
+      "has_completed": true,
+      "role": ""
+    },
+    {
+      "id": "ezkzaGTfHDVmJyUSqYGs36",
+      "first_name": "Yvan",
+      "last_name": "Jansen",
+      "email": "yvan.jansen@corporateadvisors.be",
+      "recipient_type": "signer",
+      "has_completed": true,
+      "role": ""
+    },
+    {
+      "id": "PH7cfddui7jV7jSDHvYDPR",
+      "first_name": "Anna",
+      "last_name": "Volfman",
+      "email": "anna.volfman@idealscorp.com",
+      "recipient_type": "signer",
+      "has_completed": true,
+      "role": ""
+    },
+    {
+      "id": "3YpZh6a6PkzRc8eL964ENS",
+      "first_name": "billing",
+      "last_name": "team",
+      "email": "billing@idealscorp.com",
+      "recipient_type": "CC",
+      "has_completed": true,
+      "role": ""
+    },
+    {
+      "id": "GUaHUQTpujrytvmgYsjim7",
+      "first_name": "Legal",
+      "last_name": "Team",
+      "email": "legal@idealscorp.com",
+      "recipient_type": "CC",
+      "has_completed": true,
+      "role": ""
+    }
+  ],
+  "sent_by": {
+    "id": "sm5n99S82aoZKd9jMX8sb2",
+    "email": "lidia.winer@idealscorp.com",
+    "first_name": "Lidia",
+    "last_name": "Winer",
+    "avatar": null
+  },
+  "grand_total": {
+    "amount": "0",
+    "currency": "USD"
+  }
+}

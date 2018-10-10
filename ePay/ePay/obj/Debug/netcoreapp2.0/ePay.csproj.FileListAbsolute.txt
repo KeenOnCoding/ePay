@@ -1,0 +1,11 @@
+D:\Projects\ePay\ePay\bin\Debug\netcoreapp2.0\ePay.deps.json
+D:\Projects\ePay\ePay\bin\Debug\netcoreapp2.0\ePay.runtimeconfig.json
+D:\Projects\ePay\ePay\bin\Debug\netcoreapp2.0\ePay.runtimeconfig.dev.json
+D:\Projects\ePay\ePay\bin\Debug\netcoreapp2.0\ePay.dll
+D:\Projects\ePay\ePay\bin\Debug\netcoreapp2.0\ePay.pdb
+D:\Projects\ePay\ePay\obj\Debug\netcoreapp2.0\ePay.csprojAssemblyReference.cache
+D:\Projects\ePay\ePay\obj\Debug\netcoreapp2.0\ePay.csproj.CoreCompileInputs.cache
+D:\Projects\ePay\ePay\obj\Debug\netcoreapp2.0\ePay.AssemblyInfoInputs.cache
+D:\Projects\ePay\ePay\obj\Debug\netcoreapp2.0\ePay.AssemblyInfo.cs
+D:\Projects\ePay\ePay\obj\Debug\netcoreapp2.0\ePay.dll
+D:\Projects\ePay\ePay\obj\Debug\netcoreapp2.0\ePay.pdb
